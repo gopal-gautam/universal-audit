@@ -1,0 +1,24 @@
+name: Feature request
+description: Suggest a new feature, ecosystem, or adapter.
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What should Universal Audit handle that it does not handle today?
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed solution
+      description: Describe the command, manifest, output format, or workflow you expect.
+    validations:
+      required: true
+  - type: textarea
+    id: references
+    attributes:
+      label: References
+      description: Link official docs for the ecosystem tool if this is a new adapter.
